@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   root 'sessions#new'
 
-  # mount ActionCable.server => '/cable'
+  mount ActionCable.server => '/cable'
 end
